@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color: #212427;
+  color: #f0f0f0;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  margin: 12rem auto;
+}
+
+.logo{
+  width:28rem;
+  padding-bottom: 3rem;
+}
+
+.footer{
+}
+
+@media(max-width: 991px){
+  .logo{
+    width:20rem;
+  }
+  .container {
+    margin: 6rem auto;
+  }
+}
