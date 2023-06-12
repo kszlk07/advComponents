@@ -11,7 +11,7 @@ a{
   text-decoration: none;
 }
 .container {
-  margin: 12rem auto;
+  margin: 11rem auto;
 }
 
 .logo{
@@ -20,6 +20,12 @@ a{
 }
 
 .footer{
+}
+
+@media(max-height: 800px){
+  .container {
+    margin: 8rem auto;
+  }
 }
 
 @media(max-width: 991px){
